@@ -1,0 +1,154 @@
+13:29:33.486  INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+13:29:36.493  INFO  tests.TestsBase - Name of test --->addNewCarSuccess
+13:29:36.501  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()=' Logout ']
+13:29:41.554  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']---> was found
+13:29:41.556  INFO  manager.MyListener - Start find element ---> By.xpath: //a[text()=' Log in ']
+13:29:41.575  INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Log in ']---> was found
+13:29:41.749  INFO  manager.MyListener - Start find element ---> By.id: email
+13:29:41.763  INFO  manager.MyListener - The element with locator --->By.id: email---> was found
+13:29:42.147  INFO  manager.MyListener - Start find element ---> By.id: password
+13:29:42.158  INFO  manager.MyListener - The element with locator --->By.id: password---> was found
+13:29:42.258  INFO  manager.MyListener - Start find element ---> By.cssSelector: [type='submit']
+13:29:42.275  INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']---> was found
+13:29:42.385  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']
+13:29:43.577  INFO  manager.MyListener - The element with locator --->By.xpath: //div[@class='dialog-container']---> was found
+13:29:43.578  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()='Ok']
+13:29:43.590  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()='Ok']---> was found
+13:29:44.670  INFO  tests.TestsBase -  Car was edded for userUser{name='null', lastName='null', email='noa@gmail.com', password='Nnoa12345$'}
+13:29:44.729  INFO  tests.TestsBase - Car was eddedCar(addres=Tell-Aviv, Israel, make=BMW, model=M5, year=2020, engine=3.0, fuel=Petrol, gear=MT, wD=AWD, doors=5, seats=4, clasS=E, fuelConsumption=10.0, carRegNumber=178-1784, price=70, distanceIncluded=700, features=type of, about=No Smoking)
+13:29:44.729  INFO  manager.MyListener - Start find element ---> By.cssSelector: [href='/let-car-work']
+13:29:44.743  INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/let-car-work']---> was found
+13:29:45.767  INFO  manager.MyListener - Start find element ---> By.id: pickUpPlace
+13:29:45.786  INFO  manager.MyListener - The element with locator --->By.id: pickUpPlace---> was found
+13:29:46.129  INFO  manager.MyListener - Start find element ---> By.cssSelector: .pac-item
+13:29:46.601  INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item---> was found
+13:29:47.187  INFO  manager.MyListener - Start find element ---> By.id: make
+13:29:47.217  INFO  manager.MyListener - The element with locator --->By.id: make---> was found
+13:29:47.347  INFO  manager.MyListener - Start find element ---> By.id: model
+13:29:47.357  INFO  manager.MyListener - The element with locator --->By.id: model---> was found
+13:29:47.426  INFO  manager.MyListener - Start find element ---> By.id: year
+13:29:47.437  INFO  manager.MyListener - The element with locator --->By.id: year---> was found
+13:29:47.549  INFO  manager.MyListener - Start find element ---> By.id: engine
+13:29:47.558  INFO  manager.MyListener - The element with locator --->By.id: engine---> was found
+13:29:47.675  INFO  manager.MyListener - Start find element ---> By.id: doors
+13:29:47.690  INFO  manager.MyListener - The element with locator --->By.id: doors---> was found
+13:29:47.776  INFO  manager.MyListener - Start find element ---> By.id: seats
+13:29:47.792  INFO  manager.MyListener - The element with locator --->By.id: seats---> was found
+13:29:47.900  INFO  manager.MyListener - Start find element ---> By.id: class
+13:29:47.911  INFO  manager.MyListener - The element with locator --->By.id: class---> was found
+13:29:48.110  INFO  manager.MyListener - Start find element ---> By.id: fuelConsumption
+13:29:48.128  INFO  manager.MyListener - The element with locator --->By.id: fuelConsumption---> was found
+13:29:48.264  INFO  manager.MyListener - Start find element ---> By.id: serialNumber
+13:29:48.277  INFO  manager.MyListener - The element with locator --->By.id: serialNumber---> was found
+13:29:48.554  INFO  manager.MyListener - Start find element ---> By.id: price
+13:29:48.582  INFO  manager.MyListener - The element with locator --->By.id: price---> was found
+13:29:48.805  INFO  manager.MyListener - Start find element ---> By.id: distance
+13:29:48.818  INFO  manager.MyListener - The element with locator --->By.id: distance---> was found
+13:29:48.904  INFO  manager.MyListener - Start find element ---> By.cssSelector: .feature-input
+13:29:48.928  INFO  manager.MyListener - The element with locator --->By.cssSelector: .feature-input---> was found
+13:29:49.007  INFO  manager.MyListener - Start find element ---> By.id: about
+13:29:49.018  INFO  manager.MyListener - The element with locator --->By.id: about---> was found
+13:29:49.127  INFO  manager.MyListener - Start find element ---> By.id: fuel
+13:29:49.137  INFO  manager.MyListener - The element with locator --->By.id: fuel---> was found
+13:29:49.167  INFO  manager.MyListener - Start find element ---> By.xpath: .//option[@value = "Petrol"]
+13:29:49.192  INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "Petrol"]---> was found
+13:29:49.246  INFO  manager.MyListener - Start find element ---> By.id: gear
+13:29:49.261  INFO  manager.MyListener - The element with locator --->By.id: gear---> was found
+13:29:49.275  INFO  manager.MyListener - Start find element ---> By.xpath: .//option[@value = "MT"]
+13:29:49.285  INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "MT"]---> was found
+13:29:49.316  INFO  manager.MyListener - Start find element ---> By.id: wheelsDrive
+13:29:49.326  INFO  manager.MyListener - The element with locator --->By.id: wheelsDrive---> was found
+13:29:49.341  INFO  manager.MyListener - Start find element ---> By.xpath: .//option[@value = "AWD"]
+13:29:49.352  INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "AWD"]---> was found
+13:29:49.377  INFO  manager.MyListener - Start find element ---> By.id: doors
+13:29:49.388  INFO  manager.MyListener - The element with locator --->By.id: doors---> was found
+13:29:49.492  INFO  manager.MyListener - Start find element ---> By.id: photos
+13:29:49.502  INFO  manager.MyListener - The element with locator --->By.id: photos---> was found
+13:29:49.685  INFO  manager.MyListener - Start find element ---> By.xpath: //button[text()='Submit']
+13:29:49.697  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Submit']---> was found
+13:29:51.344  INFO  manager.MyListener - Start find element ---> By.xpath: //button[text()='Submit']
+13:29:51.354  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Submit']---> was found
+13:29:51.450  INFO  manager.MyListener - Start find element ---> By.cssSelector: div.dialog-container
+13:29:53.186  INFO  manager.MyListener - The element with locator --->By.cssSelector: div.dialog-container---> was found
+13:29:53.205  INFO  manager.MyListener - Start find element ---> By.cssSelector: div.dialog-container h1
+13:29:53.214  INFO  manager.MyListener - The element with locator --->By.cssSelector: div.dialog-container h1---> was found
+13:29:53.236  INFO  manager.MyListener - Start find element ---> By.xpath: //button[text()='Search cars']
+13:29:53.249  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Search cars']---> was found
+13:29:53.276  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()=' Logout ']
+13:29:53.290  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']---> was found
+13:29:53.470  INFO  tests.TestsBase - Name of test --->addNewCarSuccess2
+13:29:53.473  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()=' Logout ']
+13:29:58.516  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']---> was found
+13:29:58.519  INFO  manager.MyListener - Start find element ---> By.xpath: //a[text()=' Log in ']
+13:29:58.549  INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Log in ']---> was found
+13:29:58.646  INFO  manager.MyListener - Start find element ---> By.id: email
+13:29:58.673  INFO  manager.MyListener - The element with locator --->By.id: email---> was found
+13:29:58.803  INFO  manager.MyListener - Start find element ---> By.id: password
+13:29:58.811  INFO  manager.MyListener - The element with locator --->By.id: password---> was found
+13:29:58.896  INFO  manager.MyListener - Start find element ---> By.cssSelector: [type='submit']
+13:29:58.904  INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']---> was found
+13:29:58.976  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']
+13:30:00.020  INFO  manager.MyListener - The element with locator --->By.xpath: //div[@class='dialog-container']---> was found
+13:30:00.021  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()='Ok']
+13:30:00.040  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()='Ok']---> was found
+13:30:01.087  INFO  tests.TestsBase -  Car was edded for userUser{name='null', lastName='null', email='noa@gmail.com', password='Nnoa12345$'}
+13:30:01.104  INFO  manager.MyListener - Start find element ---> By.cssSelector: [href='/let-car-work']
+13:30:01.117  INFO  manager.MyListener - The element with locator --->By.cssSelector: [href='/let-car-work']---> was found
+13:30:01.192  INFO  manager.MyListener - Start find element ---> By.id: pickUpPlace
+13:30:01.198  INFO  manager.MyListener - The element with locator --->By.id: pickUpPlace---> was found
+13:30:01.317  INFO  manager.MyListener - Start find element ---> By.cssSelector: .pac-item
+13:30:01.604  INFO  manager.MyListener - The element with locator --->By.cssSelector: .pac-item---> was found
+13:30:02.158  INFO  manager.MyListener - Start find element ---> By.id: make
+13:30:02.176  INFO  manager.MyListener - The element with locator --->By.id: make---> was found
+13:30:02.302  INFO  manager.MyListener - Start find element ---> By.id: model
+13:30:02.317  INFO  manager.MyListener - The element with locator --->By.id: model---> was found
+13:30:02.419  INFO  manager.MyListener - Start find element ---> By.id: year
+13:30:02.425  INFO  manager.MyListener - The element with locator --->By.id: year---> was found
+13:30:02.508  INFO  manager.MyListener - Start find element ---> By.id: engine
+13:30:02.517  INFO  manager.MyListener - The element with locator --->By.id: engine---> was found
+13:30:02.599  INFO  manager.MyListener - Start find element ---> By.id: doors
+13:30:02.611  INFO  manager.MyListener - The element with locator --->By.id: doors---> was found
+13:30:02.694  INFO  manager.MyListener - Start find element ---> By.id: seats
+13:30:02.700  INFO  manager.MyListener - The element with locator --->By.id: seats---> was found
+13:30:02.778  INFO  manager.MyListener - Start find element ---> By.id: class
+13:30:02.786  INFO  manager.MyListener - The element with locator --->By.id: class---> was found
+13:30:02.868  INFO  manager.MyListener - Start find element ---> By.id: fuelConsumption
+13:30:02.876  INFO  manager.MyListener - The element with locator --->By.id: fuelConsumption---> was found
+13:30:02.955  INFO  manager.MyListener - Start find element ---> By.id: serialNumber
+13:30:02.975  INFO  manager.MyListener - The element with locator --->By.id: serialNumber---> was found
+13:30:03.064  INFO  manager.MyListener - Start find element ---> By.id: price
+13:30:03.095  INFO  manager.MyListener - The element with locator --->By.id: price---> was found
+13:30:03.243  INFO  manager.MyListener - Start find element ---> By.id: distance
+13:30:03.253  INFO  manager.MyListener - The element with locator --->By.id: distance---> was found
+13:30:03.333  INFO  manager.MyListener - Start find element ---> By.cssSelector: .feature-input
+13:30:03.340  INFO  manager.MyListener - The element with locator --->By.cssSelector: .feature-input---> was found
+13:30:03.424  INFO  manager.MyListener - Start find element ---> By.id: about
+13:30:03.432  INFO  manager.MyListener - The element with locator --->By.id: about---> was found
+13:30:03.509  INFO  manager.MyListener - Start find element ---> By.id: fuel
+13:30:03.515  INFO  manager.MyListener - The element with locator --->By.id: fuel---> was found
+13:30:03.530  INFO  manager.MyListener - Start find element ---> By.xpath: .//option[@value = "Petrol"]
+13:30:03.544  INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "Petrol"]---> was found
+13:30:03.591  INFO  manager.MyListener - Start find element ---> By.id: gear
+13:30:03.599  INFO  manager.MyListener - The element with locator --->By.id: gear---> was found
+13:30:03.620  INFO  manager.MyListener - Start find element ---> By.xpath: .//option[@value = "MT"]
+13:30:03.631  INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "MT"]---> was found
+13:30:03.655  INFO  manager.MyListener - Start find element ---> By.id: wheelsDrive
+13:30:03.670  INFO  manager.MyListener - The element with locator --->By.id: wheelsDrive---> was found
+13:30:03.682  INFO  manager.MyListener - Start find element ---> By.xpath: .//option[@value = "AWD"]
+13:30:03.691  INFO  manager.MyListener - The element with locator --->By.xpath: .//option[@value = "AWD"]---> was found
+13:30:03.715  INFO  manager.MyListener - Start find element ---> By.id: doors
+13:30:03.721  INFO  manager.MyListener - The element with locator --->By.id: doors---> was found
+13:30:03.846  INFO  manager.MyListener - Start find element ---> By.id: photos
+13:30:03.852  INFO  manager.MyListener - The element with locator --->By.id: photos---> was found
+13:30:03.946  INFO  manager.MyListener - Start find element ---> By.xpath: //button[text()='Submit']
+13:30:03.953  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Submit']---> was found
+13:30:06.135  INFO  manager.MyListener - Start find element ---> By.xpath: //button[text()='Submit']
+13:30:06.151  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Submit']---> was found
+13:30:06.217  INFO  manager.MyListener - Start find element ---> By.cssSelector: div.dialog-container
+13:30:07.627  INFO  manager.MyListener - The element with locator --->By.cssSelector: div.dialog-container---> was found
+13:30:07.641  INFO  manager.MyListener - Start find element ---> By.cssSelector: div.dialog-container h1
+13:30:07.648  INFO  manager.MyListener - The element with locator --->By.cssSelector: div.dialog-container h1---> was found
+13:30:07.661  INFO  manager.MyListener - Start find element ---> By.xpath: //button[text()='Search cars']
+13:30:07.668  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Search cars']---> was found
+13:30:07.698  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()=' Logout ']
+13:30:07.705  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']---> was found

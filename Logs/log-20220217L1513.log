@@ -1,0 +1,169 @@
+15:13:38.908  INFO  manager.ApplicationManager - All tests starts in 'Chrome' browser
+15:13:41.183  INFO  tests.TestsBase - Name of test --->registrationSuccess
+15:13:41.188  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()=' Logout ']
+15:13:46.275  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']---> was found
+15:13:46.280  INFO  manager.MyListener - Start find element ---> By.xpath: //a[text()=' Sign up ']
+15:13:46.304  INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Sign up ']---> was found
+15:13:46.719  INFO  manager.MyListener - Start find element ---> By.tagName: form
+15:13:46.839  INFO  manager.MyListener - The element with locator --->By.tagName: form---> was found
+15:13:46.968  INFO  manager.MyListener - Start find element ---> By.id: name
+15:13:46.992  INFO  manager.MyListener - The element with locator --->By.id: name---> was found
+15:13:47.418  INFO  manager.MyListener - Start find element ---> By.cssSelector: #lastName
+15:13:47.430  INFO  manager.MyListener - The element with locator --->By.cssSelector: #lastName---> was found
+15:13:47.533  INFO  manager.MyListener - Start find element ---> By.id: email
+15:13:47.544  INFO  manager.MyListener - The element with locator --->By.id: email---> was found
+15:13:47.642  INFO  manager.MyListener - Start find element ---> By.cssSelector: #password
+15:13:47.654  INFO  manager.MyListener - The element with locator --->By.cssSelector: #password---> was found
+15:13:47.883  INFO  manager.MyListener - Start find element ---> By.id: terms-of-use
+15:13:47.896  INFO  manager.MyListener - The element with locator --->By.id: terms-of-use---> was found
+15:13:47.919  INFO  manager.MyListener - Start find element ---> By.xpath: //label[@for='terms-of-use']
+15:13:47.979  INFO  manager.MyListener - The element with locator --->By.xpath: //label[@for='terms-of-use']---> was found
+15:13:48.203  INFO  manager.MyListener - Start find element ---> By.cssSelector: [type='submit']
+15:13:48.219  INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']---> was found
+15:13:48.577  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']//h2
+15:13:49.017  INFO  manager.MyListener - The element with locator --->By.xpath: //div[@class='dialog-container']//h2---> was found
+15:13:49.047  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']
+15:13:49.076  INFO  manager.MyListener - The element with locator --->By.xpath: //div[@class='dialog-container']---> was found
+15:13:49.077  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()='Ok']
+15:13:49.093  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()='Ok']---> was found
+15:13:49.252  INFO  tests.TestsBase - Name of test --->registrationSuccessModel
+15:13:49.252  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()=' Logout ']
+15:13:49.300  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']---> was found
+15:13:49.302  INFO  manager.MyListener - Start find element ---> By.xpath: //*[text()=' Logout ']
+15:13:49.327  INFO  manager.MyListener - The element with locator --->By.xpath: //*[text()=' Logout ']---> was found
+15:13:49.636  INFO  manager.MyListener - Start find element ---> By.xpath: //a[text()=' Sign up ']
+15:13:49.650  INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()=' Sign up ']---> was found
+15:13:49.717  INFO  manager.MyListener - Start find element ---> By.tagName: form
+15:13:49.725  INFO  manager.MyListener - The element with locator --->By.tagName: form---> was found
+15:13:49.747  INFO  manager.MyListener - Start find element ---> By.id: name
+15:13:49.757  INFO  manager.MyListener - The element with locator --->By.id: name---> was found
+15:13:49.869  INFO  manager.MyListener - Start find element ---> By.cssSelector: #lastName
+15:13:49.876  INFO  manager.MyListener - The element with locator --->By.cssSelector: #lastName---> was found
+15:13:49.942  INFO  manager.MyListener - Start find element ---> By.id: email
+15:13:49.951  INFO  manager.MyListener - The element with locator --->By.id: email---> was found
+15:13:50.046  INFO  manager.MyListener - Start find element ---> By.cssSelector: #password
+15:13:50.053  INFO  manager.MyListener - The element with locator --->By.cssSelector: #password---> was found
+15:13:50.130  INFO  manager.MyListener - Start find element ---> By.xpath: //label[@for='terms-of-use']
+15:13:50.139  INFO  manager.MyListener - The element with locator --->By.xpath: //label[@for='terms-of-use']---> was found
+15:13:50.684  INFO  manager.MyListener - Start find element ---> By.cssSelector: [type='submit']
+15:13:50.708  INFO  manager.MyListener - The element with locator --->By.cssSelector: [type='submit']---> was found
+15:13:50.745  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']//h2
+15:13:55.805  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']//h2"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+15:13:55.809  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']//h2"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+15:13:55.811  INFO  manager.MyListener - This is linc of your screen with error --> src/test/screenshots/screen835.png
+15:13:57.452  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']//h2
+15:14:02.544  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']//h2"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+15:14:02.546  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']//h2"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+15:14:02.548  INFO  manager.MyListener - This is linc of your screen with error --> src/test/screenshots/screen842.png
+15:14:04.002  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']//h2
+15:14:09.091  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']//h2"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+15:14:09.093  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']//h2"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']//h2}
+15:14:09.094  INFO  manager.MyListener - This is linc of your screen with error --> src/test/screenshots/screen849.png
+15:14:10.049  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']
+15:14:15.071  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+15:14:15.072  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+15:14:15.072  INFO  manager.MyListener - This is linc of your screen with error --> src/test/screenshots/screen855.png
+15:14:16.579  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']
+15:14:21.653  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+15:14:21.654  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+15:14:21.655  INFO  manager.MyListener - This is linc of your screen with error --> src/test/screenshots/screen861.png
+15:14:23.275  INFO  manager.MyListener - Start find element ---> By.xpath: //div[@class='dialog-container']
+15:14:28.319  INFO  manager.MyListener - We have a throwable ---> no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+15:14:28.321  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dialog-container']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Andrey.local', ip: '2a00:7c40:c580:248:39a0:cc2d:28fa:92a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: /var/folders/cp/1yc9vdbx1bl...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca23b2028b7a1777fd41cce74035860f
+*** Element info: {Using=xpath, value=//div[@class='dialog-container']}
+15:14:28.321  INFO  manager.MyListener - This is linc of your screen with error --> src/test/screenshots/screen868.png
